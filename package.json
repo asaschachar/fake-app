@@ -1,0 +1,22 @@
+{
+  "name": "fake-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bson": "1.0.2", -> "1.0.5"
+  }
+}
+
+
+
+
+
+
+
+

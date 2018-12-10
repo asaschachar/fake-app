@@ -1,0 +1,45 @@
+Arguments: 
+  /Users/Asa/.nvm/versions/node/v8.11.1/bin/node /usr/local/Cellar/yarn/0.27.5_1/libexec/bin/yarn.js -v
+
+PATH: 
+  /Users/Asa/.nvm/versions/node/v8.11.1/bin:/Users/Asa/tools/arcanist/bin:./bin:/Users/Asa/.rbenv/shims:/usr/local/bin:/usr/local/sbin:/Users/Asa/.sfs:/Users/Asa/.dotfiles/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/usr/local/git/bin:/Users/Asa/tools/arcanist/bin:./bin:/Users/Asa/.rbenv/shims:/usr/local/sbin:/Users/Asa/.sfs:/Users/Asa/.dotfiles/bin:/Users/Asa/Library/Android/sdk/tools:/Users/Asa/Library/Android/sdk/platform-tools:/Users/Asa/code/emsdk:/Users/Asa/code/emsdk/clang/e1.38.11_64bit:/Users/Asa/code/emsdk/node/8.9.1_64bit/bin:/Users/Asa/code/emsdk/emscripten/1.38.11:/Users/Asa/.rbenv/bin:/Users/Asa/.gem/ruby/2.0.0/bin:/Users/Asa/bin:/Users/Asa/Library/Android/sdk/tools:/Users/Asa/Library/Android/sdk/platform-tools:/Users/Asa/code/emsdk:/Users/Asa/code/emsdk/clang/e1.38.11_64bit:/Users/Asa/code/emsdk/node/8.9.1_64bit/bin:/Users/Asa/code/emsdk/emscripten/1.38.11:/usr/local/go/bin:/Users/Asa/.rbenv/bin:/Users/Asa/.gem/ruby/2.0.0/bin:/Users/Asa/bin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.11.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "fake-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": ""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bson": "1.0.2", -> "1.0.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/Asa/code/fake-app/package.json: Unexpected number in JSON at position 201
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/0.27.5_1/libexec/lib/yarn-cli.js:747:57
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/0.27.5_1/libexec/lib/yarn-cli.js:91:30)
+      at /usr/local/Cellar/yarn/0.27.5_1/libexec/lib/yarn-cli.js:102:13
+      at <anonymous>
